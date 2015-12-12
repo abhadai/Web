@@ -12,6 +12,7 @@ var dropzone = document.getElementById("dropzone");
 dropzone.ondrop = function(e){
 	e.preventDefault();
 
+	// Send the file
 	uploadFile(e.dataTransfer.files);
 }
 
